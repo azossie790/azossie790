@@ -1,0 +1,126 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+
+*{
+    font-family: 'Montserrat';
+
+}
+
+body{
+    margin: 0 auto;
+}
+
+section.top-page{
+    background: url("images/bg.jpg");
+    height: 80vh;
+    background-size: cover;
+    padding: 25px;
+}
+
+header.header img{
+    width: 150px;
+
+}
+
+nav.nav{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+nav.nav li{
+    color: white;
+}
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+h1.big-titles{
+    color: white;
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+}
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+a.scroll{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 150px;
+}
+
+/* Services Section */
+
+section.services{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    display: flex;
+
+}
+
+.services-items i{
+    font-size: 50px;
+    color: blueviolet;
+}
+.services-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 15px;
+    width: 200px;
+    font-weight: 600;
+
+}
+
+.section-title{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+
+}
+
+.plant-box{
+    min-width: 250px;
+    height: 500px;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.best-plants{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant1{
+    background-image: url(images/nos_meilleures_ventes/1.jpg);
+}
+.plant2{
+    background-image: url(images/nos_meilleures_ventes/2.jpg);
+}
+.plant3{
+    background-image: url(images/nos_meilleures_ventes/3.jpg);
+}
+.plant4{
+    background-image: url(images/nos_meilleures_ventes/4.jpg);
+}
+.plant5{
+    background-image: url(images/nos_meilleures_ventes/5.jpg);
+}
+
+.best-items{
+    margin: 50px;
+}
